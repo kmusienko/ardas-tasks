@@ -1,13 +1,13 @@
-package com.ardas.task1.service;
+package com.mywork.task1.service;
 
-import com.ardas.task1.validation.UTF8Control;
+import com.mywork.task1.validation.UTF8Control;
 import java.io.IOException;
 import java.time.LocalTime;
 import java.util.Locale;
 import java.util.ResourceBundle;
 import org.junit.Assert;
 import org.junit.Test;
-import com.ardas.task1.service.impl.GreetingServiceImpl;
+import com.mywork.task1.service.impl.GreetingServiceImpl;
 
 public class GreetingServiceTest {
 

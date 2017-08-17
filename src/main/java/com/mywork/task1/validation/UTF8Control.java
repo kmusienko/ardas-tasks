@@ -1,4 +1,4 @@
-package com.ardas.task1.validation;
+package com.mywork.task1.validation;
 
 import java.io.IOException;
 import java.io.InputStream;

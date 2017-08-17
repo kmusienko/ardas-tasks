@@ -1,9 +1,9 @@
-package com.ardas.task1.service.impl;
+package com.mywork.task1.service.impl;
 
-import com.ardas.task1.validation.UTF8Control;
+import com.mywork.task1.validation.UTF8Control;
+import com.mywork.task1.service.GreetingService;
 import java.time.LocalTime;
 import java.util.Locale;
-import com.ardas.task1.service.GreetingService;
 import java.util.ResourceBundle;
 import org.apache.log4j.Logger;
 

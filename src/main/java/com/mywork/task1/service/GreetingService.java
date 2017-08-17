@@ -1,4 +1,4 @@
-package com.ardas.task1.service;
+package com.mywork.task1.service;
 
 import java.time.LocalTime;
 

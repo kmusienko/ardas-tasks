@@ -1,3 +1,15 @@
-2017-08-18 02:02:23 INFO  GreetingServiceImpl:22 - Called getGreetingByTime method
-2017-08-18 02:02:23 INFO  GreetingServiceImpl:38 - Added night greeting text to the variable 'greeting'
-2017-08-18 02:02:23 INFO  GreetingServiceImpl:40 - Returned 'greeting' variable by method 'getGreetingByTime'
+2017-08-18 02:38:33 INFO  GreetingServiceImpl:22 - Called getGreetingByTime method
+2017-08-18 02:38:33 INFO  GreetingServiceImpl:38 - Added night greeting text to the variable 'greeting'
+2017-08-18 02:38:33 INFO  GreetingServiceImpl:40 - Returned 'greeting' variable by method 'getGreetingByTime'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:22 - Called getGreetingByTime method
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:35 - Added evening greeting text to the variable 'greeting'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:40 - Returned 'greeting' variable by method 'getGreetingByTime'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:22 - Called getGreetingByTime method
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:32 - Added day greeting text to the variable 'greeting'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:40 - Returned 'greeting' variable by method 'getGreetingByTime'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:22 - Called getGreetingByTime method
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:38 - Added night greeting text to the variable 'greeting'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:40 - Returned 'greeting' variable by method 'getGreetingByTime'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:22 - Called getGreetingByTime method
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:29 - Added morning greeting text to the variable 'greeting'
+2017-08-18 02:38:44 INFO  GreetingServiceImpl:40 - Returned 'greeting' variable by method 'getGreetingByTime'
