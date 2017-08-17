@@ -36,7 +36,7 @@ public class UTF8Control extends Control {
     if (stream != null) {
       try {
         // Only this line is changed to make it to read properties files as cp1251.
-        bundle = new PropertyResourceBundle(new InputStreamReader(stream, "cp1251"));
+        bundle = new PropertyResourceBundle(new InputStreamReader(stream, "utf-8"));
       } finally {
         stream.close();
       }
