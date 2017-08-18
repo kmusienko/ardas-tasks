@@ -13,7 +13,7 @@ public class GreetingServiceImpl implements GreetingService {
 
   /**
    * Gets greeting text depending on the user's time and location. Depending on the location
-   * greeting will be shown either on english or russian language.
+   * greeting will be shown either in english or russian language.
    *
    * @param localTime is current user's time
    * @return greeting text
