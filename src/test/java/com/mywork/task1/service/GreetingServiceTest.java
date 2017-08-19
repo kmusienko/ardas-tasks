@@ -1,7 +1,6 @@
 package com.mywork.task1.service;
 
 import com.mywork.task1.validation.UTF8Control;
-import java.io.IOException;
 import java.time.LocalTime;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -12,7 +11,7 @@ import com.mywork.task1.service.impl.GreetingServiceImpl;
 public class GreetingServiceTest {
 
   @Test
-  public void getGreetingByTime_morningTime_GreetingText() throws IOException {
+  public void getGreetingByTime_morningTime_GreetingText() {
     //Arrange
     GreetingService greetingService = new GreetingServiceImpl();
     LocalTime localTimeMorning = LocalTime.of(7, 5);
@@ -28,7 +27,7 @@ public class GreetingServiceTest {
   }
 
   @Test
-  public void getGreetingByTime_dayTime_GreetingText() throws IOException {
+  public void getGreetingByTime_dayTime_GreetingText() {
     //Arrange
     GreetingService greetingService = new GreetingServiceImpl();
     LocalTime localTimeDay = LocalTime.of(12, 30, 15);
@@ -44,7 +43,7 @@ public class GreetingServiceTest {
   }
 
   @Test
-  public void getGreetingByTime_eveningTime_GreetingText() throws IOException {
+  public void getGreetingByTime_eveningTime_GreetingText() {
     //Arrange
     GreetingService greetingService = new GreetingServiceImpl();
     LocalTime localTimeEvening = LocalTime.of(20, 45, 2);
@@ -60,7 +59,7 @@ public class GreetingServiceTest {
   }
 
   @Test
-  public void getGreetingByTime_nightTime_GreetingText() throws IOException {
+  public void getGreetingByTime_nightTime_GreetingText() {
     //Arrange
     GreetingService greetingService = new GreetingServiceImpl();
     LocalTime localTimeNight = LocalTime.of(2, 0);
